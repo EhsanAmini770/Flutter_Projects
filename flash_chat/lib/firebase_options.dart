@@ -42,39 +42,40 @@ class DefaultFirebaseOptions {
         );
     }
   }
-
+    
+    //fill out the below based on your firebase project 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyCpKDIzIWKFxb8MsN6ZsJZ0DrZwAJzYa2I',
-    appId: '1:468054081430:web:9cd860420bef076f19a7b7',
-    messagingSenderId: '468054081430',
-    projectId: 'flash-card-92b53',
-    authDomain: 'flash-card-92b53.firebaseapp.com',
-    storageBucket: 'flash-card-92b53.appspot.com',
+    apiKey: 'your api key',
+    appId: 'your api id',
+    messagingSenderId: 'messaging senderid',
+    projectId: 'project id',
+    authDomain: 'project domain',
+    storageBucket: 'project storage bucket',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyCZowSLAP81M3V7EhrG4ln4QEM2VsUgw9o',
-    appId: '1:468054081430:android:44bdc052d379193719a7b7',
-    messagingSenderId: '468054081430',
-    projectId: 'flash-card-92b53',
-    storageBucket: 'flash-card-92b53.appspot.com',
+    apiKey: 'your api key',
+    appId: '',
+    messagingSenderId: '',
+    projectId: '',
+    storageBucket: '',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyD3S6dK759T9N8WFXacyYuRWteKPBs6ez8',
-    appId: '1:468054081430:ios:06985a71addaf19a19a7b7',
-    messagingSenderId: '468054081430',
-    projectId: 'flash-card-92b53',
-    storageBucket: 'flash-card-92b53.appspot.com',
-    iosBundleId: 'com.example.flashChat',
+    apiKey: 'your api key',
+    appId: '',
+    messagingSenderId: '',
+    projectId: '',
+    storageBucket: '',
+    iosBundleId: '',
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyD3S6dK759T9N8WFXacyYuRWteKPBs6ez8',
-    appId: '1:468054081430:ios:c424fe1ed9464eb519a7b7',
-    messagingSenderId: '468054081430',
-    projectId: 'flash-card-92b53',
-    storageBucket: 'flash-card-92b53.appspot.com',
-    iosBundleId: 'com.example.flashChat.RunnerTests',
+    apiKey: 'your api key',
+    appId: '',
+    messagingSenderId: '',
+    projectId: '',
+    storageBucket: '',
+    iosBundleId: '',
   );
 }
